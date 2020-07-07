@@ -6,6 +6,7 @@ C类赛题的要求及相关文件代码：
 
 程序是使用pycharm开发工具编写的python程序。  
 下面是项目中代码文件名的使用说明：  
+
 `1. WJ1_dataClean2.py	1Data_csv/data1.csv	data1.csv是官方提供的文件1.xlsx。该脚本是对“文件1”数据集进行的第一步数据预处理，剔除了加速度不在合理范围的异常数据。  `  
  `2. WJ1_dataClean3.py	3MidData_csv/data1_(Max_A_D)_NOnan_184971.csv该脚本是对“文件1”数据集进行的第二步数据预处理，根据停车规律剔除了长期停车（GPS车速为0的连续时间大于180）的异常数据。  `  
 `3. WJ1_dataClean4.py	3MidData_csv/data1_(DropGPSV0)_178588.csv	该脚本是对“文件1”数据集进行的第三步数据预处理，GPS车速大于等于0且小于10的连续时间段大于180的时间段的异常数据。 `   
